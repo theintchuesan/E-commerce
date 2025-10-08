@@ -2,9 +2,11 @@ const express=require('express');
 require('dotenv').config();
 const app=express();
 const errorMiddleware=require('./middleware/error');
+const cookieParser = require('cookie-parser');
 
-
- app.use(express.json());
+app.use(cookieParser());
+app.use(express.json());
+ 
 
 //importing routes
 const product=require('./routes/productRoute');
