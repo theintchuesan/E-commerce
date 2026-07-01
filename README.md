@@ -30,8 +30,3 @@ It provides a full online shopping experience with authentication, product manag
 - Express.js
 - MongoDB with Mongoose ODM
 - JWT Authentication & bcrypt for password hashing
-
----
-
-## 📂 Project Structure
-
